@@ -21,8 +21,8 @@
 	pip install sslyze
     -->
     <sslyze>
-        <path>C:\tools\sslyze-3.0.6\sslyze.exe</path>
-        <!--path>sslyze</path-->
+        <!-- path>C:\tools\sslyze-3.0.6\sslyze.exe</path -->
+        <path>sslyze</path>
         <option>--regular</option>
         <targetHost>dsodev.capgroup.com</targetHost>
         <targetPort>443</targetPort>

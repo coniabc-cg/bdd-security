@@ -31,7 +31,7 @@ Feature: SSL
   @iriusrisk-ssl_support_strong_protocols
   Scenario: Support TLSv1.2
     Then the following protocols must be supported
-      |TLSV1_2  |
+      |1.2  |
 
   @iriusrisk-ssl_perfect_forward_secrecy
   Scenario: Enable Perfect forward secrecy

@@ -10,7 +10,7 @@
     <defaultDriver path="src/test/resources/drivers/chromedriver-mac">Chrome</defaultDriver> -->
 
     <!-- Base URL of the application to test -->
-    <baseUrl>http://localhost:8080/</baseUrl>
+    <baseUrl>https://dsodev.capgroup.com/</baseUrl>
 
     <!-- A Java class to hold the Selenium steps to test the application in depth. Optionally required for in-depth authn/z and session management testing. -->
     <class>net.continuumsecurity.examples.ropeytasks.RopeyTasksApplication</class>
@@ -21,9 +21,10 @@
 	pip install sslyze
     -->
     <sslyze>
-        <path>sslyze</path>
-	<option>--regular</option>
-        <targetHost>www.continuumsecurity.net</targetHost>
+        <path>C:\tools\sslyze-3.0.6\sslyze.exe</path>
+        <!--path>sslyze</path-->
+        <option>--regular</option>
+        <targetHost>dsodev.capgroup.com</targetHost>
         <targetPort>443</targetPort>
     </sslyze>
 

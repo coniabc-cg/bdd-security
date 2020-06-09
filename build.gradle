@@ -131,6 +131,6 @@ dependencies {
     testCompile 'net.htmlparser.jericho:jericho-html:3.3'
     testCompile 'edu.umass.cs.benchlab:harlib:1.1.2'
     testCompile group: 'org.zaproxy', name: 'zap-clientapi', version: '1.2.0'
-    testCompile files ("lib/zap-java-api-2.6.0.jar", "lib/nessus-java-client-0.2-SNAPSHOT.jar","lib/jssylze-0.2-SNAPSHOT.jar")
+    testCompile files ("lib/zap-java-api-2.6.0.jar", "lib/nessus-java-client-0.2-SNAPSHOT.jar","lib/jsslyze-0.2-SNAPSHOT.jar")
 }
 
